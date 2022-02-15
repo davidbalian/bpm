@@ -1,11 +1,13 @@
 import React from "react";
+import About from "./About";
 import "./App.css";
-import Counter from "./components/Counter";
+import Counter from "./Counter";
 
 const App = () => {
 	return (
 		<div className='app'>
 			<Counter />
+			<About />
 		</div>
 	);
 };
